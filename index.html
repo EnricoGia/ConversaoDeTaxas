@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <!--
+    <nav>
+        <div class = "navegacao__opcao"><p >Conversão de juros</p></div>
+        <div class = "navegacao__opcao"><p>Outra opção</p></div>
+        <div class = "navegacao__opcao"><p>Outra opção</p></div>
+        <div class = "navegacao__opcao"><p>Outra opção</p></div>
+        <div class = "navegacao__opcao"><p>Outra opção</p></div>
+        
+    </nav>
+    -->
+    <div class = "conteudo__bloco">
+        <div class = "conteudo__bloco--menor">
+            <label for = "conteudo__entrada">de</label>
+            <select id = "conteudo__entrada">
+                <option>dia</option>
+                <option>semana</option>
+                <option>mes</option>
+                <option>bimestre</option>
+                <option>trimestre</option>
+                <option>semestre</option>
+                <option>ano</option>
+            </select>
+            <label for = "conteudo__saida">para</label>
+            <select id = "conteudo__saida">
+                <option>dia</option>
+                <option>semana</option>
+                <option>mes</option>
+                <option>bimestre</option>
+                <option>trimestre</option>
+                <option>semestre</option>
+                <option>ano</option>
+            </select>
+            <label for = "conteudo__valor">Taxa de juros:</label>
+            <input id = "conteudo__valor" type="">
+            <p>%</p>
+            
+        </div>
+        <div class = "conteudo__bloco--menor">
+            <h1>Resultado:</h1>
+            <p id = "conteudo__saida--valor"></p>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
